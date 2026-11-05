@@ -36,3 +36,25 @@ import androidx.compose.ui.Aligment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+
+// Color pallets
+// para estudo pessoal: val => valor constante que não pode ser reatribuida.
+private val FeliksColors = darkColorScheme(
+    // Primary Color
+    primary = Color(0xFFE3A857),
+
+    // Color used with primary
+    onPrimary = Color(0xFF12161C),
+
+    // Background App Color
+    background = Color(0xFF0C0F13),
+        
+    // Text on top of background
+    onBackground = Color(0xFFFFFFFF),
+    
+    // Surface components Colors
+    surface = Color(0xFF12161C),
+        
+    // Text on top of surface
+    onSurface = Color(0xFFFFFFFF)
+    )
