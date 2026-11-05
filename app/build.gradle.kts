@@ -7,7 +7,6 @@ plugins {
 }
 
 android {
-
     // Identifier
     namespace = "com.feliks.app"
 
@@ -15,7 +14,6 @@ android {
     compileSdk = 36
 
     defaultConfig {
-
         // Unique identifier
         applicationId = "com.feliks.app"
 
@@ -39,7 +37,6 @@ android {
 }
 
 dependecies {
-
     // BOM (keep Compose versions compatible)
     val composeBom = platform(
         "androidx.compose:compose-bom:2026-09-00"
