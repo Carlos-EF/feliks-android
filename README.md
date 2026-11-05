@@ -7,4 +7,4 @@ Usado como base o projeto Feliks (Gestão interna para mobiliárias), criado com
 - Coloquei para praticar e para localização de funções e afins.
 
 # ANOTAÇÔES EM PORTUGUÊS:
-- Coloquei para estudos futuros, podendo usar este projeto como para outros no futuro.
+- Coloquei para estudos futuros, podendo usar este projeto como base para outros no futuro.
