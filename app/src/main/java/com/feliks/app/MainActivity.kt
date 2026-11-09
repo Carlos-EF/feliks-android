@@ -48,13 +48,41 @@ private val FeliksColors = darkColorScheme(
 
     // Background App Color
     background = Color(0xFF0C0F13),
-        
+
     // Text on top of background
     onBackground = Color(0xFFFFFFFF),
-    
+
     // Surface components Colors
     surface = Color(0xFF12161C),
-        
+
     // Text on top of surface
     onSurface = Color(0xFFFFFFFF)
-    )
+)
+
+// Main APP Android
+class MainActivity : ComponentActivity() {
+    // When starts a screen
+    override fun onCreate(savedInstanceState: Bundle?) {
+
+        // Starts class
+        super.onCreate(savedInstanceState)
+
+        // Make the interface with Compose
+        setContent {
+
+            // Apply the color scheme
+            MaterialTheme(
+                colorScheme = FeliksColors
+            ) {
+                // Surface
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    // Show the first screen
+                    WelcomeScreen()
+                }
+            }
+        }
+    }
+}
